@@ -113,7 +113,7 @@ function main() {
   var tick = function() {
     currentAngle = animate(currentAngle);  // Update the rotation angle
     draw(currentAngle, modelMatrix, u_ModelLoc);   // Draw shapes
-    console.log('currentAngle=',currentAngle);
+    //console.log('currentAngle=',currentAngle);
     requestAnimationFrame(tick, myCanvas);   
     									// Request that the browser re-draw the webpage
   };
