@@ -220,8 +220,8 @@ function initVertexBuffer() {
 // NOTE!  'gl' is now a global variable -- no longer needed as fcn argument!
 
 	var c30 = Math.sqrt(0.75);					// == cos(30deg) == sqrt(3) / 2
-	var sq2	= Math.sqrt(2.0);	
-    
+	var sq2	= Math.sqrt(2.0);						 
+
     // how many floats total needed to store all shapes?
 	var mySiz = (cylVerts.length);						
 
